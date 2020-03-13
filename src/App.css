@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.card{
+  height: 321px;
+  width: 488px;
+  background-repeat: no-repeat;
+  background-image: url(https://velocity-files-origin.ebay.com/1add8ee4-0d32-4372-9bd6-2ebd45a90490.png);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bigDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 187px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  height: 137px;
 }
-
-.App-link {
-  color: #61dafb;
+.id{
+  position: absolute;
+    padding-top: 172px;
+    padding-left: 33px;
+    font-size: large;
+    color: white;
 }
+.date{
+    position: absolute;
+    padding-top: 225px;
+    padding-left: 305px;
+    font-size: large;
+    color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
+.name{
+  position: absolute;
+    padding-top:245px;
+    padding-left: 33px;
+    font-size: large;
+    color: white;
 }
